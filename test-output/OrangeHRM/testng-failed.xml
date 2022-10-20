@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [OrangeHRM]" guice-stage="DEVELOPMENT">
+  <parameter name="browser" value="chrome"/>
+  <test thread-count="5" parallel="tests" name="Test(failed)">
+    <classes>
+      <class name="Com.Orange.qa.TestCases.ConfigurationPageTest">
+        <methods>
+          <include name="Teardown"/>
+          <include name="ConfigList"/>
+          <include name="Setup"/>
+        </methods>
+      </class> <!-- Com.Orange.qa.TestCases.ConfigurationPageTest -->
+      <class name="Com.Orange.qa.TestCases.LoginpageTest">
+        <methods>
+          <include name="Teardown"/>
+          <include name="OrangeHRMPageTitle"/>
+          <include name="setup"/>
+          <include name="OrangeUsername"/>
+        </methods>
+      </class> <!-- Com.Orange.qa.TestCases.LoginpageTest -->
+      <class name="Com.Orange.qa.TestCases.HomepageTest">
+        <methods>
+          <include name="EmployeeName"/>
+          <include name="setup"/>
+          <include name="AddEmploy"/>
+          <include name="Teardown"/>
+        </methods>
+      </class> <!-- Com.Orange.qa.TestCases.HomepageTest -->
+      <class name="Com.Orange.qa.TestCases.Adminpage">
+        <methods>
+          <include name="Teardown"/>
+          <include name="AdminPages1"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- Com.Orange.qa.TestCases.Adminpage -->
+    </classes>
+  </test> <!-- Test(failed) -->
+  <test thread-count="5" parallel="tests" name="Test2(failed)">
+    <parameter name="browser" value="Edge"/>
+    <classes>
+      <class name="Com.Orange.qa.TestCases.ConfigurationPageTest">
+        <methods>
+          <include name="Teardown"/>
+          <include name="ConfigList"/>
+          <include name="Setup"/>
+        </methods>
+      </class> <!-- Com.Orange.qa.TestCases.ConfigurationPageTest -->
+      <class name="Com.Orange.qa.TestCases.LoginpageTest">
+        <methods>
+          <include name="Teardown"/>
+          <include name="setup"/>
+          <include name="OrangeUsername"/>
+        </methods>
+      </class> <!-- Com.Orange.qa.TestCases.LoginpageTest -->
+      <class name="Com.Orange.qa.TestCases.HomepageTest">
+        <methods>
+          <include name="EmployeeName"/>
+          <include name="setup"/>
+          <include name="AddEmploy"/>
+          <include name="Teardown"/>
+        </methods>
+      </class> <!-- Com.Orange.qa.TestCases.HomepageTest -->
+      <class name="Com.Orange.qa.TestCases.Adminpage">
+        <methods>
+          <include name="Teardown"/>
+          <include name="AdminPages1"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- Com.Orange.qa.TestCases.Adminpage -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+  <test thread-count="5" parallel="tests" name="Test1(failed)">
+    <parameter name="browser" value="FireFox"/>
+    <classes>
+      <class name="Com.Orange.qa.TestCases.ConfigurationPageTest">
+        <methods>
+          <include name="Teardown"/>
+          <include name="ConfigList"/>
+          <include name="Setup"/>
+        </methods>
+      </class> <!-- Com.Orange.qa.TestCases.ConfigurationPageTest -->
+      <class name="Com.Orange.qa.TestCases.LoginpageTest">
+        <methods>
+          <include name="Teardown"/>
+          <include name="OrangeHRMPageTitle"/>
+          <include name="setup"/>
+          <include name="OrangeUsername"/>
+        </methods>
+      </class> <!-- Com.Orange.qa.TestCases.LoginpageTest -->
+      <class name="Com.Orange.qa.TestCases.HomepageTest">
+        <methods>
+          <include name="EmployeeName"/>
+          <include name="setup"/>
+          <include name="AddEmploy"/>
+          <include name="Teardown"/>
+        </methods>
+      </class> <!-- Com.Orange.qa.TestCases.HomepageTest -->
+      <class name="Com.Orange.qa.TestCases.Adminpage">
+        <methods>
+          <include name="Teardown"/>
+          <include name="AdminPages1"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- Com.Orange.qa.TestCases.Adminpage -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [OrangeHRM] -->
